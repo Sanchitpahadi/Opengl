@@ -142,11 +142,35 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="glad.c" />
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Mesh.cpp" />
+    <ClCompile Include="src\Renderer.cpp" />
+    <ClCompile Include="src\TextRenderer.cpp" />
+    <ClCompile Include="src\Texture.cpp" />
+    <ClCompile Include="src\VertexArray.cpp" />
+    <ClCompile Include="src\VertexBuffer.cpp" />
+    <ClCompile Include="src\VertexBufferLayout.cpp" />
+    <ClCompile Include="src\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include=".gitignore" />
+    <ClInclude Include="src\include\Bullet.h" />
+    <ClInclude Include="src\include\h.h" />
+    <ClInclude Include="src\include\main.h" />
+    <ClInclude Include="src\include\Mesh.h" />
+    <ClInclude Include="src\include\Renderer.h" />
+    <ClInclude Include="src\include\shader.h" />
+    <ClInclude Include="src\include\std_img.h" />
+    <ClInclude Include="src\include\TextRenderer.h" />
+    <ClInclude Include="src\include\Texture.h" />
+    <ClInclude Include="src\include\VertexArray.h" />
+    <ClInclude Include="src\include\VertexBuffer.h" />
+    <ClInclude Include="src\include\VertexBufferLayout.h" />
+    <ClInclude Include="src\include\Window.hpp" />
+    <ClInclude Include="src\stb_truetype.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

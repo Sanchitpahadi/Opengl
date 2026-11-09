@@ -1,20 +1,47 @@
+
 # Visual Studio
 .vs/
 *.user
 *.suo
+*.userosscache
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
 
 # Build output
+build/
 x64/
+x86/
 Debug/
 Release/
-build/
 bin/
 obj/
+out/
 
-# Temporary files
+# Compiled files
+*.exe
+*.dll
 *.pdb
 *.ilk
 *.obj
+*.lib
+*.exp
+*.pch
+*.idb
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Logs and temporary files
 *.log
+*.tmp
+*.bak
+*.old
 
-
+# Windows generated files
+Thumbs.db
+Desktop.ini
