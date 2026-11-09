@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+x64/
+Debug/
+Release/
+build/
+bin/
+obj/
+
+# Temporary files
+*.pdb
+*.ilk
+*.obj
+*.log
+
+
